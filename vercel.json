@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "recipes/wsgi.py",
+        "src": "curso-django-projeto1/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
       },
@@ -21,7 +21,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "recipes/wsgi.py"
+        "dest": "curso-django-projeto1/wsgi.py"
       }
     ]
   }
